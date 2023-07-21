@@ -3,5 +3,5 @@
 ```
 $ docker run --rm --interactive --tty \
   --volume $PWD:/app \
-  composer <command>
+  ghcr.io/varieget/dzq-composer:latest <command>
 ```

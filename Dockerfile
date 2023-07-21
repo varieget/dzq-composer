@@ -24,7 +24,7 @@ RUN set -eux ; \
     gd \
   ; \
   # composer mirror
-  composer config -g repo.packagist composer https://packagist.phpcomposer.com
+  composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 
